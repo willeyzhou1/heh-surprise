@@ -6,11 +6,12 @@ let buttonTextSize = 20;
 
 async function handleButton(button) {
     if(button == yesButton) {
-        image.src = "./assets/smiley.jpeg";
+        image.src = "./assets/piplup-happy.jpg";
         description.innerHTML = "YIPPEEEEEEEE :DDDD say leth bbygurl";
     }
     else {
-        image.src = "./assets/dont.jpg";
+        image.src = "./assets/piplup-angry.gif";
+
         description.innerHTML = "Don't even think about it."
     }
 }
